@@ -1,0 +1,93 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "projects": [
+    {
+      "projectName": "Power Bank",
+      "skills": "Java, Spring Boot",
+      "roles": "full stack developer",
+      "startDate": "2023-07-01T18:30:00.000Z",
+      "endDate": "2023-07-23T18:30:00.000Z",
+      "description": "Web application that is supposed to manage rent of portable power banks ",
+      "id": 1
+    },
+    {
+      "projectName": "event registration",
+      "skills": "mern",
+      "roles": "full stack",
+      "startDate": "2023-07-08T18:30:00.000Z",
+      "endDate": "2023-08-12T18:30:00.000Z",
+      "description": "This project is simply user can view details and register the event",
+      "id": 2
+    },
+    {
+      "projectName": "Pick&Pay",
+      "skills": "Java, Spring Boot",
+      "roles": "Coder, Tester",
+      "startDate": "2023-07-04T18:30:00.000Z",
+      "endDate": "2023-07-16T18:30:00.000Z",
+      "description": "It is about to shopping app.",
+      "id": 3
+    },
+    {
+      "projectName": "Microfinance Bank",
+      "skills": "Mean ",
+      "roles": "Full stack ",
+      "startDate": "2023-07-10T18:30:00.000Z",
+      "endDate": "2023-07-23T18:30:00.000Z",
+      "description": "It is a small finance bank for providing finance service to the to the id verified customer",
+      "id": 4
+    },
+    {
+      "projectName": "Project Details",
+      "skills": "Java, Spring boot",
+      "roles": "Full stack",
+      "startDate": "2023-07-09T18:30:00.000Z",
+      "endDate": "2023-07-17T18:30:00.000Z",
+      "description": "It is a simple website where a user can manage their own project details",
+      "id": 5
+    },
+    {
+      "projectName": "My Car Helpline",
+      "skills": "Java, Selenium",
+      "roles": "Tester",
+      "startDate": "2023-07-08T18:30:00.000Z",
+      "endDate": "2023-07-14T18:30:00.000Z",
+      "description": "It is about to provide the car services supposed that repair seat cover, provide services etc.",
+      "id": 7
+    },
+    {
+      "projectName": "e-notes",
+      "skills": "Mern Stack",
+      "roles": "developer,teser",
+      "startDate": "",
+      "endDate": "",
+      "description": "It is simple application where user can manage notes details",
+      "id": 8
+    },
+    {
+      "projectName": "Red Bus",
+      "skills": "Java, Automation",
+      "roles": "Tester",
+      "startDate": "2023-07-01T18:30:00.000Z",
+      "endDate": "2023-07-19T18:30:00.000Z",
+      "description": "Testing whole application",
+      "id": 9
+    }
+  ]
+}

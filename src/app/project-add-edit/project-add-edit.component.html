@@ -1,0 +1,47 @@
+<div mat-dialog-title>
+    <h1>Add New Project</h1>
+</div>
+<form [formGroup]="projForm" (ngSubmit)="onFormSubmit()">
+<div mat-dialog-content>
+  <div class="row">
+    <mat-form-field appearance="outline">
+        <mat-label>Project Name</mat-label>
+        <input matInput type="text" formControlName="projectName">
+      </mat-form-field>
+
+    <mat-form-field appearance="outline">
+        <mat-label>Skills</mat-label>
+        <input matInput type="text" formControlName="skills">
+      </mat-form-field>
+  </div>
+  <div class="row">
+    <mat-form-field appearance="outline" class="example-form">
+        <mat-label>Responsibility</mat-label>
+        <input matInput type="text" formControlName="roles">
+      </mat-form-field>
+  </div>
+  <div class="row">
+    <mat-form-field>
+      <mat-label>Enter a date range</mat-label>
+      <mat-date-range-input [rangePicker]="picker">
+        <input matStartDate placeholder="Start date" formControlName="startDate">
+        <input matEndDate placeholder="End date" formControlName="endDate">
+      </mat-date-range-input>
+      <mat-hint>MM/DD/YYYY – MM/DD/YYYY</mat-hint>
+      <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+      <mat-date-range-picker #picker></mat-date-range-picker>
+    </mat-form-field>
+  </div>
+  <br>
+  <div class="row">
+    <mat-form-field appearance="outline" class="example-form">
+        <mat-label>Description</mat-label>
+        <textarea matInput placeholder="Add Description about project " formControlName="description"></textarea>
+      </mat-form-field>
+  </div>
+</div>
+<div mat-dialog-actions class="action">
+    <button mat-raised-button type="reset" [mat-dialog-close]="false">Cancel</button>
+    <button mat-raised-button color="primary" type="submit">{{data ? 'update': 'save'}}</button>
+</div>
+</form>

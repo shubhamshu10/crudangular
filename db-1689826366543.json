@@ -1,0 +1,39 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "projects": [
+    {
+      "projectName": "enotes",
+      "skills": "java, spring boot",
+      "roles": "developer",
+      "startDate": "",
+      "endDate": "",
+      "description": "It is about to crud application for project detail",
+      "id": 1
+    },
+    {
+      "projectName": "event registration",
+      "skills": "mern",
+      "roles": "full stack",
+      "startDate": "2023-07-08T18:30:00.000Z",
+      "endDate": "2023-08-12T18:30:00.000Z",
+      "description": "crud application",
+      "id": 2
+    }
+  ]
+}
